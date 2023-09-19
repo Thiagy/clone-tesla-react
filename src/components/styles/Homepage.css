@@ -1,0 +1,153 @@
+#box-buy{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#content-homepage{
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    transform: translate(-50%);
+    left: 50%;
+    z-index: 0;
+    padding-bottom: 1.2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 48.3vh;
+}
+
+#content-homepageOcult{
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transform: translate(-50%);
+    left: 50%;
+    z-index: 0;
+    padding-bottom: 1.2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 48.3vh;
+}
+.title h1{
+    text-align: center;
+    font-size: 2.625rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+}
+.title a{
+    text-align: center;
+    margin-top: 0.625rem;
+    font-size: 0.96rem;
+    font-family: sans-serif;
+    text-decoration: underline;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+} 
+#div-button-homepage{
+    display: flex;
+    justify-content: center;
+    gap: 1.15635rem;
+}
+.btn-content-main{
+    height: 40px;
+    width: 16.5rem;
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 0.9375rem;
+    font-weight: 540;
+    letter-spacing: 1px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+#btn-custom-order{
+     color: #ffffff;
+    background-color: #171a20c7;
+}
+#btn-existing-inventory{
+    color: black;
+    background-color: #e8e9e78c;
+}
+#btnExistingInventoryRefOcult{
+    display: none;
+}
+#downArrow{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 11px;
+    width: 100%;
+   text-align: center;
+    position: fixed;
+    top: 93.3vh;
+    transition: opacity .3s ease-in;
+    z-index: 0;
+    background-image: url('../imgs/homepage/down-arrow.png');
+}
+#downArrowOcult{
+    display: none;
+}
+.list-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+    list-style: none;
+    gap: 20px;
+    color: #171A20;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: #5C5E62;
+    margin-bottom: 28px;
+}
+.section-7{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (max-width: 839px){
+    #btn-custom-order{
+        width: 9.875rem;
+        padding: 0.75rem 1rem;
+    }
+    #btn-existing-inventory{
+        width: 9.875rem;
+        padding: 0.75rem 1rem;
+    }
+}
+@media (max-width: 600px){
+    #div-button-homepage{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    aside{
+        width: 60%;
+    }
+    .list-footer{
+        flex-direction: column;
+        gap: 2px;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    .oculto{
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    .title h1{
+        font-size: 2rem;
+    }
+    
+}
+
+

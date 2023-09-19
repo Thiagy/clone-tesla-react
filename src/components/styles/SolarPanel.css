@@ -1,0 +1,160 @@
+.div-main-image-solar-panel{/*Sessão solar panels*/
+    background-image: url('../imgs/img-panel-solar/hero-d.jfif');
+}
+.manual-navigation-solar-panel{/*Navigation*/
+    position: fixed;
+    top: 186px;
+    left: 0;
+    z-index: 6;
+    padding-left: 12px;
+    color: white;
+}
+.manual-navigation-solar-panel div{
+    font-size: 0.6rem;
+    transition: .1s;
+}
+.block-white{
+    height: 20px;
+    width: 1px;
+    background-color: #C6C6C8;
+}
+.text-block-white{
+    opacity: 0;
+    padding: 2.5px 0;
+}
+.text-block-white:hover{
+    opacity: 1;
+} 
+.box-learn-more{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 6px;
+}
+.box-learn-more p{
+    color: #171A20;
+    font-size: 14px;
+}
+.learn-button{
+    border: 3px solid black;
+    background-color: transparent;
+    color: #393C41;
+    font-size: 26px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn-button:hover{
+    background-color: #171A20;
+    color: white;
+}
+.image-saving{/*div range*/
+    background-image: url('../imgs/img-panel-solar/inverter.avif');
+}
+
+.design-image{/*Design image*/
+    background-image: url("../imgs/img-panel-solar/_25-Design-D.jfif");
+}
+.powerwall-image{/*powerwall*/
+    background-image: url("../imgs/img-panel-solar/PW-Inverter-Hero-D.jfif");
+}
+.power-on{/*power On*/
+    height: 65vh;
+    overflow-y: hidden;
+}
+.image-efficiency{/*efficiency*/
+    background-image: url("../imgs/img-panel-solar/Inverter_V8_D.jpg");
+}
+.experience{/*Experience*/
+    background-image: url("../imgs/img-panel-solar/mobile-device.jfif");
+}
+.specs-image-solar-painels{/*Specs*/
+    background-image: url("../imgs/img-panel-solar/_25-Specs-D.jfif");
+}
+
+.footer-solar-panel{/*Footer*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    height: 100vh;
+    background-color: black;
+}
+.box-transform-your-solar-panels{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    text-align: center;
+}
+.box-transform-your-solar-panels h1{
+    margin-bottom: 2vh;
+}
+.btn-footer{
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 2vh;
+}
+.btn-footer-1{
+    border: 3px solid white;
+    background-color: black;
+}
+.btn-footer-2{
+    border: 3px solid transparent;
+    background-color: #393C41;
+}
+.btn-footer-1:hover{
+    background-color: white;
+    color: #171A20;
+}
+.btn-footer-2:hover{
+    background-color: #A2A3A6;
+}
+/*Imagem padrão da section Specs para painel 2*/
+.image-solar-panels{
+    background-image: url("../imgs/img-panel-solar/_25-Specs-D.jfif"); 
+    background-repeat: no-repeat;
+}
+
+@media (max-width:1200px){
+    .manual-navigation{   
+        display: none;
+    }
+    html{
+        overflow-y: scroll;
+    }
+    .image-flex-column{
+        flex-direction: column-reverse;
+    }
+    .power-on{
+        height: 33vh;
+    }
+}
+@media (max-width: 425px){
+    .main-title-box h1{
+        font-size: 2rem;
+    }
+    .manual-navigation-solar-panel{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

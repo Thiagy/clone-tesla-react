@@ -1,0 +1,746 @@
+/*css aplicado a div comum*/
+.div_flex{
+    display: flex;
+    height: auto;
+}
+.div_flex_text_button{
+    display: flex;
+    margin: auto;
+    padding: 30px 0;
+    width: 90%;
+}
+.div_flex_text{
+    width: 60%;
+    padding: 10px;
+}
+.div_flex_button{
+    width: 40%;
+    padding: 10px;
+}
+/*css aplcado a div que obterá um 'flex-direction: column-reverse pra mobile*/
+.div_flex_reverse{
+    display: flex;
+    height: auto;
+}
+.div_flex_reverse_image{
+    height: 100vh;
+    width: 69.54%;
+    background-size: cover;
+    background-position: center;
+}
+.div_flex_reverse_image video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.div_flex_reverse_text_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30.45%;
+    gap: 20px;
+    padding: 20px;
+}
+.div_flex_reverse_text{
+    width: 80%;
+}
+.div_flex_reverse_text h4,h1,p{
+    margin-bottom: 20px;
+}
+.div_image_column{
+    position: relative;
+    height: 370px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.div_image_column video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.main-div{/*div model s*/
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-title-box h1{
+    text-align: center;
+    font-size: 2.62rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.main-title-box p{
+    margin-top: 13px;
+    font-size: 1rem;
+    text-align: center;
+}
+.car-profile-box{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    gap: 3vh;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.car-profile h2{
+    font-size: 3.5vh;
+}
+.bate-papo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 78vh;
+    right: 3vh;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px -1px 1px 1px  rgba(0, 0, 0, .2), -1px 1px 1px 1px  rgba(0, 0, 0, .2);
+    z-index: 5;
+    background-image: url('./components/imgs/img-model-s/bate-papo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.down-arrow{/*down arrow*/
+    background-image: url("./components/imgs/img-model-3/seta-down.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    cursor: pointer;
+    bottom: 13px;
+    text-align: center;
+    height: 13px;
+    width: 20px;
+    z-index: 3;
+}
+.darkness-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    height: 26vh;
+}
+.car-interior{/*Div interior car*/
+    position: relative;
+    background-image: linear-gradient(to bottom, black 1%, rgba(255, 255, 255, 0) 23%, transparent 76% ), url("./components/imgs/img-model-s/MS-Interior.jfif");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.btn-border-black{/*Tree buttons*/
+    border: 3px solid #171A20;
+    background-color: transparent;
+    color: #171A20;
+    padding: 4px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    width: 204px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.btn-border-black:hover{
+    color: white;
+   background-color: #171A20;
+}
+.btn-border-transparent{
+    border: 1px solid transparent;
+    background-color: #EEEEEE;
+    color: #171A20;
+    padding: 4px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    width: 204px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.btn-border-white{
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 4px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    width: 204px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.btn-border-white:hover{
+    color: black;
+    background-color: white;
+}
+.div-electric-powertrain{/*div Electric Powertrain*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18vh;
+    background-color: #F4F4F4;
+    padding: 6vh 0;
+}
+.electric-powertrain-text{
+    width: 90%;
+}
+.electric-powertrain-text h1{
+    font-size: 28px;
+    margin-bottom: 4.46vh; 
+}
+.electric-powertrain-text p{
+    font-size: 14px;
+    font-weight: 540;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+#interior-car-image{
+    width: 92.9%;
+    height: 100vh;
+}
+#interior-car-image img{
+    height: 100%;
+    width: 100%;
+}
+.slide-electric-powertrain{
+    cursor: pointer;
+    width: 50%;
+    padding: 0 0.5vh;
+    color: #a2a3a6;
+}
+.darkness-line{
+    width: 100%;
+    height: 4px;
+    background-color: #9C9D9F;
+    margin-bottom: 2vh;
+}
+.box-car-profile-electric-powertrain{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+.div-video-car-interior{/*div video car interior*/
+    padding: 7vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#div_video_display_car{
+    height: 80vh;
+    width: 93.5%;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+#display-car{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+.box-navigation{
+    width: 45.6%;
+    margin: 9vh 0;
+}
+.navigation{
+    display: flex;
+    gap: 8px;  
+}
+.option{
+    height: 14px;
+    width: 14px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #5C5E62;
+    cursor: pointer;
+}
+.box-text-navigation{
+    color: white;
+    border: 1px sold white;
+}
+.box-text-navigation h4{
+    padding: 16px 0 8px 0;
+}
+.box-text-navigation p{
+    padding: 16px 0 14px 0;
+}
+.car-attributes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: auto;
+    width: 89%;
+}
+.car-attributes-image-1{
+    background-image: url("./components/imgs/img-model-s/MS-Interior-Grid-A-Desktop.jfif");
+}
+.car-attributes-image-2{
+    background-image: url("./components/imgs/img-model-s/MS-Interior-Grid-D-Desktop.jfif");
+}
+.car-attributes-image-4{
+    background-image: url("./components/imgs/img-model-x/Model-X-Exterior-Grid-A-Desktop-Global.jfif");
+}
+.car-attributes-image-5{
+    background-image: url("./components/imgs/img-model-x/Model-X-Exterior-Grid-B-Desktop-Global.jfif");
+}
+.car-attributes-image-6{
+    background-image: url("./components/imgs/img-model-x/Model-X-Exterior-Grid-C-Desktop-Global.jfif");
+}
+.car-attributes-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50%;
+}
+.car-attributes-video{
+    height: 100%;
+    width: 50%;
+}
+.car-attributes-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 17px;
+    width: 30%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.car-attributes-box{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 2vh;
+    justify-content: space-evenly;
+}
+.car-attribute{
+    color: white;
+    text-align: center;
+    width: 25%;
+}
+.car-attribute h2{
+    font-size: 28px;
+    margin-bottom: 1vh;
+}
+.car-attribute p{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.btn-custom-order-designed-for-Efficiency{
+    border: 1px solid transparent;
+    background-color: #171A20;
+    color: white;
+    padding: 4px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    width: 204px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.btn-custom-order-designed-for-Efficiency:hover{
+    background-color: #393C41;
+}
+
+.div-flex{/*div-flex*/
+    display: flex;
+    justify-content: space-around;
+}
+.tex-div-flex{/*text*/
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    width: 30.45%;
+    justify-content: space-evenly;
+}
+.tex-div-flex h4{
+    font-size: 17px;
+    font-weight: lighter;
+}
+.tex-div-flex p{
+    margin-top: 4vh;
+    font-size: 14px;
+}
+.div-flex-button{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 2vh;
+}
+.btn-order-now-flex{
+    border: 3px solid #171A20;
+    background-color: transparent;
+    color: #171A20;
+    padding: 4px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.btn-order-now-flex:hover{
+    color: white;
+   background-color: #171A20;
+}
+.btn-second-flex{
+    border: 3px solid transparent;
+    background-color: #EEEEEE;
+    color: #171A20;
+    padding: 4px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+
+.freedom-to-travel-image{/*div freedom to travel*/
+    background-image: url("./components/imgs/img-model-s/SF-LA-Range-Map.jfif");
+    background-position: center;
+    background-size: cover;
+    width: 92.9%;
+    height: 100vh;
+    border-radius: 20px;
+}
+.slide-map{
+    width: 24.6%;
+    cursor: pointer;
+    color: #9C9D9F;
+}
+
+.box-slide{/*box-slide Electric Powertrain, Freedom to Travel, Features*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 92.9%;
+}
+.darkness-line-video{
+    width: 100%;
+    height: 2px;
+    background-color: #9C9D9F;
+    margin-bottom: 2vh;
+}
+.image-safety{/*div safety*/
+    background-image: url("./components/imgs/img-model-s/Model-S-Safety-Hero-Desktop-Global.jfif");
+    
+}
+.autopilot-image{/*div autopilot*/
+    background-image: url("./components/imgs/img-model-s/Autopilot-Hero-Vision-Desktop-p.png");
+}
+.box-text-autopilot{
+   display: flex;
+   height: 100%;
+   flex-direction: column;
+   justify-content: space-between;
+    padding: 4vh 2vh;
+}
+.text-autopilot{
+    margin-bottom: 2vh;
+}
+.text-autopilot  h1{
+    font-size: 28px;
+    font-weight: lighter;
+}
+.text-autopilot  p{
+    font-size: 12px;
+    margin-top: 1vh;
+}
+.text-autopilot-none{
+    display: none;
+}
+.interior-image{/*Sessão Interior*/
+    background-image: url("./components/imgs/img-model-3/Model-3-Interior-Hero-Desktop-LHD.jfif");
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+/*div features*/
+#div_video_demo{
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+}
+#video_demo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+.box-slide-text-features{
+    width: 24.6%;
+    color: #A2A3A6;
+    cursor: pointer;
+}
+.div-specs{/*div specs*/
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+.div-image-specs{
+    background-position: center;
+    background-size: contain;
+    height: 560px;
+    width: 47%; 
+}
+
+/*Imagem padrão da section Specs para carro*/
+.image-car{
+    background-image: url("./components/imgs/img-model-s/Model-S-Specs-Hero-Desktop-LHD.jfif");
+    background-repeat: no-repeat; 
+}
+.tables-specs{
+    width: 42%;
+    padding: 2vh;
+}
+.tables-specs h1{
+    font-size: 28px;
+    padding-bottom: 2vh;
+}
+.div-description-specs{
+    display: flex;
+    gap: 0.4vw;
+}
+hr{
+    width: 10%;
+    height: 1px;
+    margin-bottom: 10px;
+}
+.table-specs{
+    width: 40%;
+}
+.table-specs p{
+    line-height: 22px;
+    font-size: 14px;
+}
+.spacing{
+    margin-bottom: 10px;
+}
+.btn-model-s-plaid{
+    font-size: 12px;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    border: 3px solid white;
+    background-color: transparent;
+    padding: 4px 0;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+.btn-model-s{
+    font-size: 12px;
+    border-radius: 4px;
+    width: 95%;
+    height: 32px;
+    border: 3px solid #222222;
+    background-color: transparent;
+    padding: 4px 24px;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+.div-btn-specs{
+    text-align: center;
+}
+
+.title-button-box{/*div order*/
+    height: 400px;
+    width: 35.73%;
+    padding: 16vh 5vh;
+}
+.title-button-box h1{
+    font-size: 28px;
+    padding-bottom: 3vh;
+    color: #171A20;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.order-image{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 400px;
+}
+
+footer{/*div footer*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+.list-footer{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1vw;
+    color: #171A20;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    color: #5C5E62;
+    margin: 10vh;
+}
+.ancora-footer{
+    text-decoration: underline;
+}
+footer p{
+    width: 46%;
+    font-size: 0.8rem;
+    margin-bottom: 5vh;
+    color: #5C5E62;
+}
+
+/* Personalizar a barra de rolagem */
+::-webkit-scrollbar {
+    width: 6px; 
+    height:6px;
+    border-radius: 4px;
+}
+  
+/* Personalizar o fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .2);
+
+}
+
+/* Personalizar o indicador (a parte que você arrasta) */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0,.5);
+    border-radius: 5px; 
+}
+
+/* Personalizar o indicador ao passar o mouse por cima */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, .35);
+}
+
+@media (max-width: 1200px){
+    
+    .div_flex_reverse_image, .div_flex_reverse_text_button, .div_flex_reverse_text, .div_flex_text_button, .div_flex_button, .div_flex_text, .tables-specs, .div-image-specs{
+        width: 100%;
+    }
+    .div_flex_spes{
+        flex-direction: column;
+    }
+    .div-flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .table-specs{
+        width: 50%;
+    }
+    #display-car, .range-image, .image-safety, .tex-div-flex, .box-title-text, footer p{
+        width: 100%;
+    }
+    .div-flex-button{
+        width: 30%;
+    }
+    .tables{
+        width: 100%;
+    }
+    .table-model-s{
+        width: 50%;
+    }
+    .btn-model-s-plaid, .btn-model-s{
+        width: 80%;
+    }
+    .title-button-box, .order-image{
+        width: 90%;
+        padding: 10px;
+        height: 250px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:768px){
+    #hp{
+        display: none;
+    }
+    .box-navigation{
+        width: 70%;
+    }
+    #div_video_display_car{
+        width: 99.5%;
+    }
+    .video-car-interior, .box-title, .box-text, .freedom-to-travel-image, .box-slide{
+        width: 100%;
+    }
+    .car-attributes-box{
+        width: 100%;
+    }
+    
+    .image-safety{
+        background-image: url("./components/imgs/img-model-s/Model-S-Safety-Hero-Mobile-Global.jfif");
+        height: 100vh;
+        background-size: cover;
+    }
+    .freedom-to-travel-image{
+        height: 50vh;
+    }
+}
+@media (max-width: 425px){
+    .car-profile-box h2, .car-profile-electric-powertrain h2, .car-attribute h2, .slide-map h2, .box-slide-text-features h3{
+        font-size: 17px;
+    }
+    .car-profile-box p, .car-profile-electric-powertrain p, .car-attribute p, .slide-map p, .box-slide-text-features p{
+        font-size: 10px;
+    }
+    .btn-border-black, .btn-border-transparent, .btn-border-white, .btn-custom-order-designed-for-Efficiency{
+        width: 100%;
+    }
+   .car-attributes-1, .car-attributes-3, .car-attributes-5{
+        flex-direction: column;
+        width: 100%;
+   }
+   .car-attributes-2, .car-attributes-4, .car-attributes-6{
+    flex-direction: column-reverse;
+    width: 100%;
+   }
+   .car-attributes-image, .car-attributes-text, .car-attributes-video{
+    width: 100%;
+   }
+   #interior-car-image{
+        height: 200px;
+        width: 100%;
+    }
+   .box-car-profile-electric-powertrain{
+    flex-direction: column;
+    gap: 3vh;
+   }
+   .div-electric-powertrain{
+        gap: 2vh;
+    }
+    .autopilot-image{
+        background-image: url("./components/imgs/img-model-s/Autopilot-Hero-Vision-Mobile.jfif");
+    }
+    .btn-model-s-plaid, .btn-model-s, .div-flex-button{
+        width: 100%;
+    }
+}

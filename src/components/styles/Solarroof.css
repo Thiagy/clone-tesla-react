@@ -1,0 +1,127 @@
+.div-main-image-solar-roof{/*Sessão Solar Roof*/
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../imgs/img-panel-roof/Solar-Roof-Hero-Desktop-Global.webp');
+    color: white;
+}
+
+.box-video-design-installation-power-on{/*div design-installation-power-on*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.div_video_des_int_pow{
+    height: 500px;
+    width: 100%;
+}
+.div_video_des_int_pow video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box-navigation-manual{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.black-line{
+    width: 100%;
+    height: 2px;
+}
+.nav-bar-video{
+    width: 33%;
+    cursor: pointer;
+}
+.nav-bar-video h2 {
+    font-size: clamp(12px, 5vw, 25px);
+}
+
+.design-image{/*imagem design*/
+    background-image: url("../imgs/img-panel-roof/Solar-Roof-Design-Desktop-Global.webp");
+}
+.energy-storage-image{/*div storage-image*/
+    background-image: url("../imgs/img-panel-roof/Solar-Roof-Energy-Desktop-Global.webp");
+}
+.eficiency-image{/*div eficiency*/
+    background-image: url("../imgs/img-panel-roof/inverter.avif");
+}
+.control-image{/*div control*/
+    background-image: url("../imgs/img-panel-roof/SR-tesla-app-D.jfif");
+}
+.value-image{/*div value*/
+    background-image: url("../imgs/img-panel-roof/Solar-Roof-Value-Desktop-Global.webp");
+}
+/*Imagem padrão da section Specs para painel 1*/
+.image-solar-roof{
+    background-image: url("../imgs/img-panel-roof/PanelMeasure_desktop2x.avif"); 
+    background-repeat: no-repeat;
+}
+footer{/*Footer*/
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box-transform-your-roof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    text-align: center;
+}
+.box-transform-your-roof h1{
+    margin-bottom: 2vh;
+}
+.btn-footer{
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 2vh;
+}
+.btn-footer-1{
+    border: 3px solid white;
+    background-color: black;
+
+}
+.btn-footer-2{
+    border: 3px solid transparent;
+    background-color: #393C41;
+}
+.btn-footer-1:hover{
+    background-color: white;
+    color: #171A20;
+}
+.btn-footer-2:hover{
+    background-color: #A2A3A6;
+}
+
+@media (max-width: 1200px){
+    
+    .div_flex{
+        flex-direction: column;
+    }
+    .div_flex_text_button{
+        flex-direction: column;
+    }
+    .div_flex_text, .div_flex_button, .div_flex_text_button, .div_flex_reverse_text_button{
+        width: 100%;
+    }
+    .div_flex_reverse_image{
+        height: 380px;
+        width: 100%;
+    }
+    .div_flex_reverse{
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+
+
+

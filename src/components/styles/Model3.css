@@ -1,0 +1,102 @@
+.navigation-option{
+    display: flex; 
+    margin-bottom: 5px; 
+    align-items: center;
+    gap: 4px;
+}
+#main-content{   
+    opacity: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50vh;
+    height: 100vh;
+    width: 50%;
+    left: 25%;
+}
+.div-main-image-model-3{/*Sessão model 3*/
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 24%, transparent 76% ), url('../imgs/img-model-3/model-3-main.jfif');
+    color: white;
+}
+.manual-navigation{/*Manual navigation*/
+    position: fixed;
+    top: 29.9vh;
+    left: 2vh;
+    z-index: 6;
+    color: red;
+}
+.manual-navigation div{
+    font-size: 0.6rem;
+    transition: .1s;
+}
+.block-white{
+    height: 3.8vh;
+    width: 0.1vh;
+    background-color: white;
+}
+.text-block-white{
+    opacity: 0;
+    padding: 2.3px 0;
+}
+.text-block-white:hover{
+    opacity: 1;
+}
+.div-learn-more{/*div button learn more*/
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.div-learn-more p{
+    font-size: 14px;
+    margin: auto 0;
+}
+.btn-learn-more{
+    border: 3px solid black;
+    background-color: transparent;
+    color: #171A20;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-learn-more:hover{
+    background-color: #171A20;
+    color: white;
+}
+
+.image-performance{/*Sessão Performance*/
+    background-image: url("../imgs/img-model-3/Model-3-Performance-Hero-Desktop-LHD.jfif");
+}
+.image-all-wheel-drive{/*Sessão All-Wheel-Drive*/
+    background-image: url("../imgs/img-model-3/blue-car-model-3.jfif");
+}
+.range-img{/*div Range*/
+    background-image: url("../imgs/img-model-3/range-model-3.jfif");
+}
+.order-image-model-3{
+    background-image: url("../imgs/img-model-3/red-model-3.jfif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 60vh;
+    padding: 5vh;
+}
+
+@media (max-width:1200px){
+    .manual-navigation{
+        display: none;
+    }
+}
+
+
+
+
+
+

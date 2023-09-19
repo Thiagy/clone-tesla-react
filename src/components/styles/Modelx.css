@@ -1,0 +1,44 @@
+.div-main-image-model-x{/*div model X*/
+    background-image: linear-gradient(to top, black 1%, rgba(255, 255, 255, 0) 25% ), url('../imgs/img-model-x/model-x-main.jfif');
+}
+
+.beyond-ludicrous-image-model-x{/*Div beyond ludicrous*/
+    background-image: url("../imgs/img-model-x/Model-X-Performance-Hero-Desktop-LHD.jfif");
+}
+.designed-for-efficiency-image-model-x{/*div designed-for-efficiency*/
+    background-image: url("../imgs/img-model-x/Model-X-Exterior-Hero-Desktop-Global.jfif");
+}
+.utility-image{/*div utility*/
+    height: 100vh;
+    background-image: url("../imgs/img-model-x/Model-X-Utility-Hero-Desktop-LHD.jfif");
+    background-size: cover;
+}
+.range-model-x{/*div range*/
+    background-image: url("../imgs/img-model-x/Model-X-Range-Hero-Desktop-LHD.jfif");
+    background-size: cover;
+    height: 100vh;
+}
+.order-image-model-x{
+    background-image: url("../imgs/img-model-x/Model-X-Order-Hero-Desktop-Mobile-Global.jfif");
+}
+
+@media (max-width: 425px){
+    .div-main-image{
+        background-image:  linear-gradient(to top, black 1%, rgba(255, 255, 255, 0) 25% ),  url("../imgs/img-model-x/Model-X-Main-Hero-Mobile-LHD.jfif");
+    }
+    .beyond-ludicrous-image-model-x{
+        background-image: url("../imgs/img-model-x/Model-X-Performance-Hero-Mobile-LHD.jfif");
+    }
+    .designed-for-efficiency-image-model-x{
+        background-image: url("../imgs/img-model-x/Model-X-Exterior-Hero-Mobile-Global.jfif");
+    }
+    .utility-image{
+        background-image: url("../imgs/img-model-x/Model-X-Utility-Hero-Mobile-LHD.jfif");
+    }
+    .range-model-x{
+        background-image: url("../imgs/img-model-x/Model-X-Range-Hero-Mobile-LHD.jfif");
+    }
+    
+}
+
+

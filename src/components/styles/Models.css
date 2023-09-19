@@ -1,0 +1,40 @@
+.div-main-image-model-s{/*div main*/
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../imgs/img-model-s/Model-S-Main.jfif');
+} 
+
+
+.beyond-ludicrous-image-model-s{/*Div beyond ludicrous*/
+    background-image: url("../imgs/img-model-s/Model-S-Performance-Hero-Desktop-LHD.jfif");
+}
+
+.designed-for-efficiency-image-model-s{/*div designed-for-efficiency*/
+    background-image: url("../imgs/img-model-s/Model-S-Exterior-Hero-Desktop-Global.jpeg");
+}
+.car-attributes-image-4{
+    background-image: url("../imgs/img-model-s/model-s-pneu-dianteiro-esquerdo.jfif");
+}
+.car-attributes-image-5{
+    background-image: url("../imgs/img-model-s/model-s-traseira.jfif");
+}
+.car-attributes-image-6{
+    background-image: url("../imgs/img-model-s/model-s-dianteira-esquerda.jfif");
+}
+
+.order-image-model-s{
+    background-image: url("../imgs/img-model-s/white-model-s.jfif");
+}
+
+@media (max-width: 425px){
+    .div-main-image{
+        background-image:  linear-gradient(to top, black 1%, rgba(255, 255, 255, 0) 25% ),  url("../imgs/img-model-s/Model-S-Main-Hero-Mobile-LHD.jfif");
+    }
+    .beyond-ludicrous-image-model-s{
+        background-image: url("../imgs/img-model-s/Model-S-Performance-Hero-Mobile-LHD.jfif");
+    }
+    .designed-for-efficiency-image-model-s{/*div designed-for-efficiency*/
+        background-image: url("../imgs/img-model-s/Model-S-Exterior-Hero-Mobile-Global.jfif");
+    }
+   
+}
+
+
